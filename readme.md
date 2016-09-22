@@ -13,9 +13,9 @@ This is still a work in progress, but importantly - *it works*. It's taken me a 
 
 ## Plugin Installation
 
-1. Copy the source directory to your Sublime Text packages directory
-2. Move or copy the example settings file to [sublime text packages folder]/User/textsync.sublime-settings
-3. Reload Sublime Text
+1. **Copy the source directory to the new folder [your Sublime Text packages directory]/textsync** -> [Sublime Text config folder]/Packages/textsync/textsync.py should exist once this step is done 
+2. **Move or copy textsync/example_config/textsync.sublime-settings to [sublime text packages folder]/User/textsync.sublime-settings** Follow the instructions below to configure your settings file.
+3. **Reload Sublime Text** 
 
 If installation goes well, you should see a variety of non-greyed out options under 'Tools > TextSync'.
 
@@ -84,3 +84,7 @@ As this is very beta, getting set up might take a bit of troubleshooting. One th
 - A round of general debugging
 - More commands - make it easier to control without manually editing config files
 - Easier onboarding and installation
+
+## Questions?
+
+If you really want to give this a try, but have issues with the install? Thoughts, suggestions? [Drop me a line](http://rayban.vision/#!/contact) and I'll try to get back with you. Please include any relevant error messages, and a description of the problems you're having.
