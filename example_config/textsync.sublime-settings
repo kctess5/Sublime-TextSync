@@ -1,0 +1,32 @@
+{
+	"default":
+	{
+		"debug": true,
+		"enabled": false,
+		"ghost_cursor": "outline",
+		"logLevel": "DEBUG",
+		"maxSyncInterval": 800,
+		"minSyncInterval": 200,
+		"server_admin_port": 8001,
+		"server_api_port": 64494,
+		"server_port": 9998,
+		"syncInterval": 400,
+		"timeoutInterval": 30000
+	},
+	"user":
+	{
+		"debug": true,
+		"dev_appserver": "[GOOGLE CLOUD SDK INSTALL PATH]/bin/dev_appserver.py",
+		"enabled": true,
+		"ghost_cursor": "solid underline",
+		"logLevel": "DEBUG",
+		"maxSyncInterval": 1500,
+		"minSyncInterval": 400,
+		"server_admin_port": 8001,
+		"server_api_port": 64494,
+		"server_hostname": "[SERVER IP ADDRESS]",
+		"server_port": 9998,
+		"syncInterval": 700,
+		"timeoutInterval": 30000
+	}
+}

@@ -1,0 +1,31 @@
+Software contained in the "lib" directory is subject to the following license.
+Modifications have been made from the original MobWrite that is included with 
+the given MobWrite package in order to provide support for the required 
+functionality.
+
+Specifically, the MobWrite server has been optimized for performance with this
+Software. Additionally, software contained in the "lib" directory was modified
+to better support cursor position correction and other application-specific needs.
+
+--------
+
+MOBWRITE APACHE LICENSE VERSION 2 - SEE APACHE_V2_LICENSE.TXT
+--------------------------------------------
+
+MobWrite - Real-time Synchronization and Collaboration Service
+
+Copyright 2009 Google Inc.
+http://code.google.com/p/google-mobwrite/
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+

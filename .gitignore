@@ -1,0 +1,5 @@
+.DS_Store
+textsync.settings
+ex/*.txt
+*.pyc
+server/flask_notworking

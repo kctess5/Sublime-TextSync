@@ -1,0 +1,73 @@
+[
+	{
+		"id": "textsync",
+		"caption": "TextSync",
+		"children":
+		[
+			{
+				"caption": "Sync Mode",
+				"children":
+				[
+					{
+						"command": "textsync_choose_sync_mode", "args": {"value": "Fast"}
+					},
+					{
+						"command": "textsync_choose_sync_mode", "args": {"value": "Normal"}
+					},
+					{
+						"command": "textsync_choose_sync_mode", "args": {"value": "Slow"}
+					}
+				]
+			},
+			{
+				"caption": "Ghost Cursor Style",
+				"children":
+				[
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "Fill"}
+					},
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "Outline"}
+					},
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "Solid underline"}
+					},
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "Squiggly underline"}
+					},
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "Stippled underline"}
+					},
+					{
+						"caption": "-"
+					},
+					{
+						"command": "textsync_choose_cursor_style", "args": {"value": "None"}
+					}
+				]
+			},
+			{
+				"caption": "Toggle Synchronization...",
+				"command": "textsync_toggle_sync"
+			},
+			{
+				"caption": "-"
+			},
+			{
+				"caption": "Open User Settings",
+				"command": "open_file", "args":
+				{
+					"file": "${packages}/User/textsync.sublime-settings"
+				}
+			},
+			{
+				"caption": "Debug Mode",
+				"command": "textsync_set_setting", "args":
+				{
+					"setting": "debug",
+					"value": true
+				}
+			}
+		]
+	}
+]

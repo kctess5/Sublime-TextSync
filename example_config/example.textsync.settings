@@ -1,0 +1,14 @@
+{
+	"exclude": [
+		"**/__init__.py"
+	],
+	"include": [
+		"*.txt",
+		"*.py"
+	],
+	"username": "[YOUR USERNAME]",
+	"send_ghost_cursors": true,
+	"show_ghost_cursors": true,
+	"gateway": "http://[SERVER IP ADDRESS]:[SERVER PORT, 9998 maybe]",
+	"id": "thisisatest"
+}
